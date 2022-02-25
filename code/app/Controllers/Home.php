@@ -29,7 +29,6 @@ class Home extends BaseController
         db->insertID();
 
         return view("vSuccess",$datoId );
-
     }
 }
 
