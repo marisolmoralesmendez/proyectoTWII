@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario</title>
+	<style>
+		body{
+			background: #c2d6d6;
+		}
+	</style>
 </head>
-<body background="fondo1.jpg" width="100%" height="100%">
+<body>
+
 	<br><br><br>
 	<h1><center>Registro</center></h1>
 	<h2><center>¡¡Bienvenido!!</center></h2>
@@ -23,7 +29,7 @@
         <option value="0">Lector</option>
         <option value="1">Escritor de reseñas</option>
         <option value="2">Critico</option>
-    </select></center>
+    </select></center><br>
 		<center>Contraseña: <input required type="text" name="contra" id="contra"></center>
 		<br>
 		<center><input type="submit" name="enviar" value="Registrar"></center>

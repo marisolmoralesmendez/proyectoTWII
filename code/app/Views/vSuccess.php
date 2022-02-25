@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Success</title>
+    <style>
+        body{
+            background: #bbff99;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <p>El usuario se registro con exito,
+        <h2>El usuario se registro con exito,
             su identificador es el:
-                <?php echo$id_usuario; ?></p>
+                <?php echo$id_usuario; ?></h2>
 
     </div>
     <footer>
