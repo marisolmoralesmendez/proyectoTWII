@@ -16,6 +16,7 @@
         <h2>El usuario se registro con exito,
             su identificador es el:
                 <?php echo$id_usuario; ?></h2>
+                hola
     </div>
     <footer>
 </footer>
