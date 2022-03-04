@@ -46,7 +46,7 @@ class Home extends BaseController
         $mUsuarios = new mUsuarios();
         $correo = $_POST['correo'];
         $contra = $_POST['contra'];
-        $user= $mUsuarios->where('usuario', $usuario)->where('contra',$contra)->first();
+        $user= $mUsuarios->where('correo', $correo)->where('contra',$contra)->first();
         return view("vIngresado", $user);
     }
 
