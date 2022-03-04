@@ -38,7 +38,6 @@ class Home extends BaseController
         $mUsuarios = new mUsuarios();
         $todos = $mUsuarios->findAll();
         $usuarios=array('usuarios'=>$todos);
-
         return view("vRegistros", $usuarios);
     }
 
@@ -63,6 +62,15 @@ class Home extends BaseController
         $mUsuarios->update($id_usuario, $usuarioActualizado);
         return $this->mostrarRegistros();
     }
+
+    public function buscarRegistro(){
+        $mUsuarios = new mUsuarios();
+        $id_usuario = $_POST['id_usuario'];
+        $usuario=$mUsuarios->find($id_usuario);
+        return view("vRegistroEncontrado", $usuario);
+    }
+
+    
 
 }
 

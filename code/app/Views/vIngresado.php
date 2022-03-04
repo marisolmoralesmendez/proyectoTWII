@@ -31,7 +31,7 @@
 				</tr>
 			</tbody>
 		</table>
-		<form method="POST" action="<?php echo base_url();?> /HOME/buscarRegistro">
+		<form method="POST" action="<?php echo base_url();?>/proyectoTWII/code/public/Home/buscarRegistro">
 			<input type="hidden" name="id_usuario" value="<?php echo $id_usuario;?>">
 			<button type="submit">Actualizar datos</button>
 		</form>
