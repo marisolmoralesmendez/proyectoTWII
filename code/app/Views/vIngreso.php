@@ -12,7 +12,6 @@
     </style>
 </head>
 <body>
-
     <br><br><br>
     <h1><center>Ingresar</center></h1>
     <h2><center>¡¡Bienvenido!!</center></h2>

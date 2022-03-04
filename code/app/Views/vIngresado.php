@@ -21,6 +21,7 @@
 			</thead>
 			<tbody>
 				<tr>
+					
 					 <td><?php echo $id_usuario; ?></td>
 					 <td><?php echo $correo; ?></td>
 					 <td><?php echo $contra; ?></td>
