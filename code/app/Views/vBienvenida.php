@@ -7,6 +7,5 @@
     <a href="../Home/registro">Registrarse</a>
     <br>
     <a href="../Home/ingreso">Ingresar</a>
-   
 </body>
 </html>
